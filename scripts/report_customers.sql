@@ -15,7 +15,6 @@ Highlights:
 	    - recency (months since last order)
 		- average order value
 		- average monthly spend
-===============================================================================
 */
 
 IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
