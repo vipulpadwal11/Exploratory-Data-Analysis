@@ -2,8 +2,6 @@
 
 An end-to-end SQL Data Analytics project built using **Microsoft SQL Server**, demonstrating **Exploratory Data Analysis (EDA)** and **Advanced SQL Analytics** to extract meaningful business insights from sales data.
 
-> **Note:** This project was completed for learning purposes by implementing the SQL Data Analytics project created by **Data With Baraa**. It was recreated independently to strengthen practical SQL, exploratory data analysis, and analytical problem-solving skills.
-
 ---
 
 ## 📖 Overview
@@ -30,10 +28,7 @@ The goal is to transform raw business data into actionable insights that support
 
 ## 📊 Project Workflow
 
-![Project Workflow](images/project_workflow.png)
-
 The project follows the following analytical workflow:
-
 1. Database Exploration
 2. Dimensions Exploration
 3. Date Exploration
@@ -54,7 +49,6 @@ The project follows the following analytical workflow:
 The Exploratory Data Analysis phase focuses on understanding the dataset before performing business analysis.
 
 Topics covered include:
-
 - Database exploration
 - Dimension exploration
 - Date exploration
@@ -63,7 +57,6 @@ Topics covered include:
 - Top N & Bottom N analysis
 
 Example business questions:
-
 - How many customers are in the dataset?
 - How many products are available?
 - Which categories generate the highest revenue?
@@ -77,7 +70,6 @@ Example business questions:
 The Advanced Analytics phase focuses on answering real business questions using SQL.
 
 Topics covered include:
-
 - Change-over-Time Analysis
 - Cumulative Analysis
 - Performance Analysis
@@ -86,7 +78,6 @@ Topics covered include:
 - Business Reporting
 
 Example business questions:
-
 - How has sales changed over time?
 - Which products contribute the highest revenue?
 - Who are the top-performing customers?
@@ -99,7 +90,6 @@ Example business questions:
 # 🛠️ SQL Concepts Used
 
 This project demonstrates the use of:
-
 - SELECT
 - WHERE
 - ORDER BY
@@ -119,39 +109,11 @@ This project demonstrates the use of:
 
 ---
 
-# 📂 Project Structure
-
-```text
-sql-data-analytics/
-│
-├── datasets/
-│
-├── scripts/
-│   ├── exploratory_data_analysis.sql
-│   ├── advanced_data_analytics.sql
-│
-├── images/
-│   └── project_workflow.png
-│
-└── README.md
-```
-
----
-
 # 📌 Key Business Insights
 
 The analysis provides insights into:
-
-- Sales performance over time
-- Revenue trends
-- Customer purchasing behavior
-- Product performance
-- Category performance
-- Top-performing products
-- Bottom-performing products
-- Customer segmentation
-- Revenue contribution analysis
-- Business reporting
+- Customer report (gold)
+- Product report (gold)
 
 ---
 
@@ -171,27 +133,6 @@ The analysis provides insights into:
 
 ---
 
-# 🚀 Getting Started
-
-### Clone the repository
-
-```bash
-git clone https://github.com/vipulpadwal11/Exploratory-Data-Analysis.git
-```
-
-### Open
-
-- Microsoft SQL Server Management Studio (SSMS)
-
-### Execute
-
-Run the SQL scripts in the following order:
-
-1. `exploratory_data_analysis.sql`
-2. `advanced_data_analytics.sql`
-
----
-
 # 📚 Learning Outcomes
 
 Through this project, I gained hands-on experience in:
@@ -203,14 +144,3 @@ Through this project, I gained hands-on experience in:
 - Building business reports from raw data
 - Performing real-world Exploratory Data Analysis
 
----
-
-# 🙏 Acknowledgements
-
-This project was completed for learning purposes by following and implementing the **SQL Data Analytics Project** created by **Data With Baraa**.
-
-Special thanks to Baraa for creating an excellent hands-on SQL learning resource that demonstrates practical business analytics using Microsoft SQL Server.
-
----
-
-## ⭐ If you found this project helpful, consider giving it a star!
